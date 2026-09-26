@@ -223,7 +223,7 @@
     <p>Wardrobe items, outfit recommendations, favourites, and conversation turns with the Stylist are transmitted to the OnurAI API and stored there, associated with your account, so the app can show your own wardrobe and recommendations back to you across sessions.</p>
 
     <h3>Photos</h3>
-    <p>This app accesses your device's <strong>photo library</strong> — never the camera directly. The one photo you choose to add a garment is uploaded to the backend to support wardrobe and recommendation features. There is no background or bulk photo access.</p>
+    <p>This app uses your device's <strong>camera</strong> only when you press the shutter to photograph a garment (it asks permission first), or reads one photo you explicitly pick from your <strong>photo library</strong>. Only that one photo is uploaded to the backend, to support wardrobe, recommendation and garment-recognition features. There is no background camera use and no bulk photo access.</p>
 
     <h3>AI processing</h3>
     <p>To generate recommendations and replies, your inputs are processed by a language model. Depending on backend configuration, that runs either on infrastructure the operator controls directly, or through a third-party AI provider — in which case content is processed by that third party under its own terms.</p>
@@ -241,7 +241,7 @@
       <div class="status-row"><span class="label">Analytics or tracking SDK</span><span class="pill no">Not present</span></div>
       <div class="status-row"><span class="label">Crash-reporting SDK</span><span class="pill no">Not present</span></div>
       <div class="status-row"><span class="label">Advertising SDK</span><span class="pill no">Not present</span></div>
-      <div class="status-row"><span class="label">Camera, microphone, contacts or location access</span><span class="pill no">Not present</span></div>
+      <div class="status-row"><span class="label">Microphone, contacts or location access</span><span class="pill no">Not present</span></div>
       <div class="status-row"><span class="label">Push notifications</span><span class="pill no">Not present</span></div>
       <div class="status-row"><span class="label">In-app purchase / payment processing</span><span class="pill todo">Not yet active</span></div>
     </div>
